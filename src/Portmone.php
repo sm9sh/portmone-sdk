@@ -9,7 +9,6 @@ use Worksection\Portmone\exceptions\PortmoneException;
 use Worksection\Portmone\libs\Helper;
 use Worksection\Portmone\libs\Request;
 
-Portmone::init(); // for register autoloader
 
 class Portmone
 {
