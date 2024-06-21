@@ -1,21 +1,14 @@
 {
-    "name": "worksection/portmone-sdk",
+    "name": "sm9sh/portmone-sdk",
     "description": "Portmone SDK library to use API",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Vadym Dorokh",
-            "email": "vadymski@gmail.com",
-            "role": "Distributor"
-        }
-    ],
     "version": "1.0.1",
     "require": {
         "php": ">=7.2"
     },
     "autoload": {
         "psr-4": {
-            "Worksection\\Portmone\\": "src/"
+            "Portmone\\Portmone\\": "src/"
         }
     }
 }
