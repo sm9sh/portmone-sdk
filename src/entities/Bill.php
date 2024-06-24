@@ -120,4 +120,9 @@ class Bill extends BaseEntity
         return $this->getProperty('PAYER->ATTRIBUTE4');
     }
 
+    public function getStatus()
+    {
+        return $this->getProperty('STATUS');
+    }
+
 }
